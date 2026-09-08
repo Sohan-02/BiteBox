@@ -9,7 +9,8 @@ header{
     align-items: center;
     justify-content: space-between;
     background-color: black;
-    height: 90px;
+    height: 65
+    px;
 
     padding: 0px 30px 0px 30px;
 }
@@ -34,3 +35,33 @@ nav {
  a:hover {
              color: red;
     }
+
+
+    /* url()->tells css to load an image
+     ../-> go on folder back.
+     image/->enter the image folder.
+     banner.jpg -> use this image. */
+
+     .hero{
+        height: 90vh;
+        background:url("../images/banner.jpg") no-repeat center/cover;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: white;
+     }
+
+     .hero button{
+        margin-top: 15px;
+        padding: 10px 20px;
+        background: red;
+        color: white;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+     }
+
+     .hero button:hover{
+        background: darkred;
+       
+     }
