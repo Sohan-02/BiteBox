@@ -65,3 +65,63 @@ nav {
         background: darkred;
        
      }
+
+     /* video part */
+     .video-section{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 50px;
+        gap: 40px;
+
+        
+     }
+
+
+     /* take an equal share of the available space */
+     .video-text{
+        flex: 1;
+     }
+
+     .video-box {
+        flex: 1;
+     }
+
+     .video-box video{
+        width: 100%;
+        border-radius: 10px;
+     }
+
+     .video-text h2{
+        font-size: 32px;
+        margin-bottom: 15px;
+     }
+
+     .video-text p{
+        font-size: 18px;
+        color: #444;
+     }
+
+     /* about section */
+
+     .about{
+        text-align: center;
+        padding: 60px 20px;
+        background: white;
+     }
+
+     .about h2{
+        font-size: 32px;
+        margin-bottom: 20px;
+        color: rgba(255, 0, 0, 0.615);
+     }
+     .about p{
+        max-width: 700px;
+        margin: auto;
+        font-size: 18px;
+        color: #555555;
+        line-height: 1.6;
+     }
+
+     /* about page design */
+     /* Design card */
