@@ -125,3 +125,93 @@ nav {
 
      /* about page design */
      /* Design card */
+
+     /* footer */
+     footer{
+      background: black; 
+      color: white;
+     
+      padding: 40px;
+     }
+
+     .footer-content{
+      display: flex;
+      gap: 30px;
+     }
+
+     .footer-bitebox{
+      flex: 1;
+     }
+     .footer-Quick-Link{
+      
+      flex: 1;
+     }
+     .footer-Contact{
+      flex: 1;
+     }
+     .footer-Follo-us{
+      flex: 1;
+     }
+
+   .footer-bottom{
+      text-align: center;
+   }
+
+   footer ul {
+      display: block;
+      list-style: none;
+      padding: 0;
+      color: white;
+   }
+   footer a{
+      color: #cccccc;
+      text-decoration: none;
+   }
+   /* starting of menu page */
+
+   .category-icons{
+      display: flex;
+      gap: 20px;
+      padding: 20px;
+      overflow: auto;
+      background: #ffffff;
+      justify-content: center;
+   }
+
+   /* transition :0.3s, is used in css to make chahges */
+
+   .icon-box{
+      min-width: 100px;
+      text-align: center;
+      cursor: pointer;
+      transition: 0.3s;
+   }
+
+   /* object-fit: cover; is mainly used with images and videos*/
+
+   .icon-box img{
+      width: 70px;
+      height: 70px;
+      object-fit: cover;
+      border-radius: 50%;
+      border: 2px solid #eeeeee;
+      padding: 5px;
+   }
+
+   .icon-box p{
+      margin-top: 8px;
+      font-size: 14px;
+   }
+
+   .icon-box img:hover{
+      margin-top: 8px;
+     
+   }
+
+   .icon-box p:hover{
+      color: red;
+   }
+
+   header{
+      position: sticky;
+   }
